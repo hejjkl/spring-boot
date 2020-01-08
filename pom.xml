@@ -24,6 +24,8 @@
         <module>springboot-admin-client</module>
         <module>springboot-admin-server</module>
         <module>springboot-email</module>
+        <module>spring-boot-uploadfile</module>
+        <module>springboot-jdbctemplate</module>
     </modules>
 
     <dependencies>

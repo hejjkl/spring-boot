@@ -11,7 +11,7 @@ class SpringbootEmailApplicationTests {
     MailService mailService;
     @Test
     void contextLoads() {
-        mailService.sendSimpleMail("hejingjing@sinosoft.com.cn","美国暴雪娱乐有限公司","hello","hejingjing@sinosoft.com.cn");
+        mailService.sendSimpleMail("hejingjing@sinosoft.com.cn","美国暴雪娱乐有限公司","hello");
     }
 
 }
