@@ -26,6 +26,7 @@
         <module>springboot-email</module>
         <module>spring-boot-uploadfile</module>
         <module>springboot-jdbctemplate</module>
+        <module>springboot-mybatis</module>
     </modules>
 
     <dependencies>
@@ -44,6 +45,16 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
         </dependency>
     </dependencies>
 
